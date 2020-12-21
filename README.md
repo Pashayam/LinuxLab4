@@ -80,4 +80,5 @@ mdadm --assemble --scan
 
 Выполнить монтирование:
 `mount -a `
+
 ![](https://github.com/Pashayam/LinuxLab4/blob/main/images/8.png)
