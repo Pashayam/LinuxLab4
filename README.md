@@ -1,4 +1,4 @@
-##Работа с RAID массивами с использованием mdadm
+## Работа с RAID массивами с использованием mdadm
 
 Ставим нужные пакеты:
 `yum install mdadm`
@@ -70,6 +70,7 @@ mdadm --assemble --scan
 
 Создаём раздел:
 `fdisk /dev/md0`
+
 ![](https://github.com/Pashayam/LinuxLab4/blob/main/images/7.png)
 
 Создаём файловую систему:
