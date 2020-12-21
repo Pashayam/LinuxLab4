@@ -75,7 +75,9 @@ mdadm --assemble --scan
 
 Создаём файловую систему:
 `mkfs.ext4 /dev/md0p1`
+
 Редактируем файл fstab
+
 Выполнить монтирование:
 `mount -a `
 ![](https://github.com/Pashayam/LinuxLab4/blob/main/images/8.png)
